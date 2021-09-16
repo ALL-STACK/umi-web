@@ -13,7 +13,7 @@ import { useState } from 'react';
 import { Button } from 'antd';
 import styles from './index.less';
 
-export default () => {
+export default ({children}) => {
   const [count, setCount ] = useState(0)
   return (
     <ProLayout
